@@ -57,7 +57,7 @@ const config = createConfig([
     }),
     addPlugins([
       new WebpackMd5Hash(),
-      new webpack.optimize.UglifyJsPlugin({ compress: { warnings: false, drop_console: true } }),
+      new webpack.optimize.UglifyJsPlugin({ compress: { warnings: false, drop_console: false } }),
     ]),
   ]),
 ]);
