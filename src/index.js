@@ -1,3 +1,6 @@
+// flow
+// disabled flow since flow is not compatible with async import yet
+// see https://github.com/facebook/flow/pull/3544
 import Sync from 'Sync';
 
 Sync();
