@@ -1,0 +1,17 @@
+{
+  "name": "es6-starterkit",
+  "description": "",
+  "keywords": [],
+  "website": "",
+  "repository": "https://github.com/zenoplex/es6-starterkit",
+  "env": {
+    "NODE_MODULES_CACHE": {
+      "value": "true",
+      "required": true
+    },
+    "NPM_CONFIG_PRODUCTION": {
+      "value": "false",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,15 @@
+[ignore]
+.*/node_modules/.*
+
+[include]
+
+[libs]
+
+[options]
+module.system=haste
+module.system.node.resolve_dirname=src
+module.ignore_non_literal_requires=true
+munge_underscores=true
+esproposal.class_static_fields=enable
+esproposal.class_instance_fields=enable
+unsafe.enable_getters_and_setters=true
